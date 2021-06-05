@@ -1,0 +1,169 @@
+.menu {
+	text-align: center;
+}
+.menu a {
+	text-decoration: none;
+	color: black;
+	width: 100px;
+	padding: 10px 20px;
+}
+.menu a:hover {
+	background-color: #ccc;
+}
+.header {
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 200px 0px;
+	background-image: url(images/polygons.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+button {
+	padding: 12px 24px;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+	border: none;
+}
+body {
+	margin:0;
+}
+#about-us img {
+	width: 400px;
+	display: inline-block;
+}
+#about-us {
+	width: 1200px;
+	padding: 40px 0px;
+	margin: 0px auto;
+	vertical-align: middle;
+	text-align: left;
+}
+#about-us div {
+	width: 700px;
+	display: inline-block;
+}
+.member {
+	display: inline-block;
+	width: 20%;
+	margin: 20px 10px;
+	border: 2px solid grey;
+	box-shadow: 0 2px 5px grey;
+	padding: 20px;
+	text-align: left;
+}
+.member img {
+	width: 100%;
+}
+#team {
+	text-align: center;
+}
+.member h3 {
+	font-weight: 400;
+	font-size: 24px;
+}
+.member .position {
+	opacity: 0.6;
+}
+.member a {
+	padding: 14px 0px;
+	font-weight: bold;
+	color: white;
+	background-color: #055b73;
+	text-decoration: none;
+	width: 100%;
+	display:inline-block;
+	text-align: center;
+	border-radius: 10px;
+}
+.price li {
+	list-style-type: none;
+	border-bottom: 1px solid #dddddd;
+	padding: 16px 0px;
+}
+.price-header {
+background-color: black;
+color: white;
+font-size: 24px;
+padding: 32px 0px;
+}
+#prices {
+	background-color:#616161;
+   	text-align: center;
+   	padding: 50px 0;
+}
+.price {
+	display: inline-block;
+	padding: 0px;
+	width: 30%;
+	background-color: white;
+	margin: 10px;
+	vertical-align: middle;
+}
+.price .pro {
+	background-color: #055b73;
+	padding: 48px 0;
+}
+#prices h2, #prices p {
+	color: white;
+}
+#prices .priceperday {
+	color: black;
+	font-weight:bold;
+	font-size: 24px;
+}
+#prices .period {
+	color: black;
+	opacity: 0.4;
+}
+#prices .important {
+	font-weight: bold;
+}
+.price li:last-child {
+	background-color: #f1f1f1;
+	padding: 24px 0;
+}
+.price a {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 12px 24px;
+	border-radius: 8px;
+}
+.price a:hover {
+	color: black;
+	background-color: white;
+}
+#contact{
+	background-color: #f1f1f1;
+	padding: 40px 0;
+	text-align: center;
+}
+.contact-address {
+	background-image: url(images/address.png);
+}
+.contact-phone {
+	background-image: url(images/phone.png);
+}
+.contact-email {
+	background-image: url(images/mail.png);
+}
+.contact-info {
+	text-align: left;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-size: 18px 18px;
+	background-position: left center;
+	margin-left: 5%;
+}
+input[type=text] {
+	width: 90%;
+	margin: 4px;
+	padding: 5px 5px;
+}
+form button:hover{
+	background-color: #ccc;
+}
